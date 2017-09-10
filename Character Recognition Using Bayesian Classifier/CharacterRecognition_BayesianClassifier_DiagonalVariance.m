@@ -65,7 +65,7 @@ end
 cov = (1/200)*temp_cov;
 clear temp_cov image_column_vector;
 %------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------;
-cd('D:\IITG Stuff\Acads\6th Sem\EE657 Pattern Recognition and Machine Learning\Assignments\ASSIGNMENT_1_PRML_2014\ASSIGNMENT_1_PRML_2014\TrainCharacters\TrainCharacters\2');
+cd('\TrainCharacters\TrainCharacters\2');
 D2 = dir('*.jpg');
 imcell2 = cell(1,z);                              % cell to read and store images from a folder
 imcellnew2=cell(1,z);                             % cell to store images after resizing and converting into double
@@ -98,7 +98,7 @@ cov2 = (1/200)*temp_cov2;
 clear temp_cov2 image_column_vector2;
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------;
 %Read Input Training Images from data set
-cd('D:\IITG Stuff\Acads\6th Sem\EE657 Pattern Recognition and Machine Learning\Assignments\ASSIGNMENT_1_PRML_2014\ASSIGNMENT_1_PRML_2014\TrainCharacters\TrainCharacters\3');
+cd('\TrainCharacters\TrainCharacters\3');
 D3 = dir('*.jpg');
 imcell3 = cell(1,z);                              % cell to read and store images from a folder
 imcellnew3=cell(1,z);                             % cell to store images after resizing and converting into double
@@ -132,7 +132,7 @@ clear temp_cov3 image_column_vector3;
 
 %----------------------------------------------------------------------------------------------------------------------------------------------
 %Loading Test Images
-% cd('D:\IITG Stuff\Acads\6th Sem\EE657 Pattern Recognition and Machine Learning\Assignments\ASSIGNMENT_1_PRML_2014\ASSIGNMENT_1_PRML_2014\TestCharacters\TestCharacters\TestCharacters\1');
+% cd('\TestCharacters\TestCharacters\TestCharacters\1');
 % D_test_e = dir('*.jpg');
 % imcell_test_e    = cell(1,numel(D_test_e));                              % cell to read and store images from a folder
 % imcellnew_test_e = cell(1,numel(D_test_e));
@@ -151,7 +151,7 @@ clear temp_cov3 image_column_vector3;
 % clear imcell_test_e, imcellnew_test_e;
 
 %Loading 'c'test images
-cd('D:\IITG Stuff\Acads\6th Sem\EE657 Pattern Recognition and Machine Learning\Assignments\ASSIGNMENT_1_PRML_2014\ASSIGNMENT_1_PRML_2014\TestCharacters\TestCharacters\TestCharacters\2');
+cd('\TestCharacters\TestCharacters\TestCharacters\2');
 D_test_c = dir('*.jpg');
 x=100;
 imcell_test_c    = cell(1,x);                              % cell to read and store images from a folder
@@ -169,7 +169,7 @@ end
 clear imcell_test_c imcellnew_test_c;
 
 %Loading 'i' test images
-cd('D:\IITG Stuff\Acads\6th Sem\EE657 Pattern Recognition and Machine Learning\Assignments\ASSIGNMENT_1_PRML_2014\ASSIGNMENT_1_PRML_2014\TestCharacters\TestCharacters\TestCharacters\3');
+cd('\TestCharacters\TestCharacters\TestCharacters\3');
 D_test_eye = dir('*.jpg');
 imcell_test_eye    = cell(1,x);                              % cell to read and store images from a folder
 imcellnew_test_eye = cell(1,x);
